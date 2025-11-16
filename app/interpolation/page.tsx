@@ -4,11 +4,11 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 
-import { linspace } from "@/lib/interpolation/utils";
+import { linspace } from "@/lib/utils";
 import {
   lagrange_interpolation,
   newton_interpolation,
-} from "@/lib/interpolation/interpolation";
+} from "@/lib/interpolation";
 
 export default function Home() {
   const [a, setA] = useState(-4);

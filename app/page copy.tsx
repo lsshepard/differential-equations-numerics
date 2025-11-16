@@ -9,9 +9,9 @@ import {
   LineElement,
 } from "chart.js";
 
-import { linspace } from "@/lib/interpolation/utils";
+import { linspace } from "@/lib/utils";
 
-import lagrange_interpolation from "@/lib/interpolation/interpolation";
+import lagrange_interpolation from "@/lib/interpolation";
 
 export default function Home() {
   const a = -4;
