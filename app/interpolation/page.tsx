@@ -10,7 +10,7 @@ import {
   newton_interpolation,
 } from "@/lib/interpolation";
 
-export default function Home() {
+export default function interpolation() {
   const [a, setA] = useState(-4);
   const [b, setB] = useState(4);
   const [N, setN] = useState(5);
